@@ -31,11 +31,31 @@ li{
   width: 200px;
   height: 100px;
 
+  padding-top: 25px;
+
 }
-.header .menu{
+.header .main-menu{
   width: 600px;
   height: 100px;
 
+  display: flex;
+  align-items: center;
+
+}
+.main-menu li{
+  width: 150px;
+  height: 25px;
+  text-align: center;
+}
+
+.sub-menu{
+
+  position: relative;
+  z-index: 10;
+
+  display: none;
+  background-color: pink;
+  color: white;
 }
 
 .slide{
@@ -53,10 +73,25 @@ li{
   height: 200px;
 
 }
+
+.gallery{
+  width: 400px;
+  height: 200px;
+
+  display: none;
+}
+
+.gallery ul{
+  width: 400px;
+  height: 200px;
+  display: flex;
+}
+
 .gallery img{
 
   width: 130px;
   height: 130px;
+  align-items: center;
 }
 .banner{
   width: 400px;
@@ -64,6 +99,11 @@ li{
 
 }
 .baro{
+  width: 400px;
+  height: 200px;
+}
+
+.baro img{
   width: 400px;
   height: 200px;
 }
@@ -78,4 +118,24 @@ li{
 .footer .logo{
   width: 200px;
   height: 100px;
+
+  padding-top: 25px;
 }
+
+.copy{
+  padding-top: 25px;
+}
+
+.pop{
+  width: 400px;
+  height: 300px;
+  background-color: pink;
+  color: white;
+
+  position: absolute;
+  left: 37%;
+  top: 37%;
+
+  display: none;
+}
+
